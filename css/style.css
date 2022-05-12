@@ -6,7 +6,7 @@
 
 .body {
     background-color: azure;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 
@@ -218,9 +218,8 @@ position: absolute;
     padding: 1rem;
     display: flex;
     flex-direction: row;
-
     justify-content: space-between;
-    align-items: center;
+    align-items:flex-end;
 }
 
 
@@ -269,14 +268,23 @@ position: absolute;
 .table__titulo {
     margin: 16px;
     font-family: sans-serif; /*agregar otra tipografia */
+   
+}
+
+.h2 {
+    border-top: 0; /*sacar subrayados*/;
 }
 
 .table__tops {
     border-color: #f50087;
+    border-style:double ;
+    padding: 0.5rem
+
 }
 
 .table__buttoms {
     border-color: #c5e643;
+
 }
 
 .encabezado {
@@ -314,36 +322,11 @@ position: absolute;
 }
 
 .formulario {
-    display: flex;
-    flex-direction: column;
-    margin: 2rem;
-}
-
-.formulario__items {
-    display: flex;
-   align-items: flex-end;
     padding: 1rem;
-    color: #43e651;
+    max-width: 380px;
 }
 
-.formulario__alien {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end; /*corregir*/
-}
 
-.formulario__button {
-    padding: 10px;
-    margin: 1rem;
-    background-color: #00f514ad;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    width: 300px;
-    height: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 .header__open {
     display: block;
@@ -378,8 +361,21 @@ position: absolute;
     padding: 0.5rem;
 }
 
+.body__contacto {
+    background-image: url(../images/alien.png);
+     background-size: 70%;
+}
 
+.contacto {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    padding: 10px;
+}
 
+.contacto__parrafo {
+    padding: 0.5rem;
+    font-size: 15px;
+}
 
 
 
@@ -596,7 +592,11 @@ position: absolute;
         width: 100%;
         height: auto;
     }
-
+    .contacto {
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+        padding: 5px;
+    }
  
     
     
