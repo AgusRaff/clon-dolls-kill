@@ -1,0 +1,34 @@
+.table {
+    margin: 50px;;
+}
+
+.table__titulo {
+    margin: 16px;
+    font-family: sans-serif; /*agregar otra tipografia */
+   
+}
+
+.h2 {
+    border-top: none; /*sacar subrayados*/;
+}
+
+.table__tops {
+    border-color: $color-principal;
+    border-style:double ;
+    padding: 0.5rem
+
+}
+
+.table__buttoms {
+    border-color: #c5e643;
+
+}
+
+.comentario{
+    display: flex;
+    flex-direction: column;
+}
+.comentario__text {
+    width: 100%;
+    height: auto;
+}
