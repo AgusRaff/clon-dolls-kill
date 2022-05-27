@@ -4,7 +4,7 @@
 }
 
 .encabezado__parrafo {
-    font-size: 19px;
+    font-size: 20px;
     width: 800px;
     margin: 0.2rem;
 }
@@ -12,3 +12,22 @@
 .display-1 {
 margin: 0.5rem;
 }
+
+
+
+/* Declaramos primero el mixing 
+
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+@mixin generarFlex($direction, $eje-principal, $eje-secundario: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $eje-principal;
+    align-items: $eje-secundario;
+}
+
+*/

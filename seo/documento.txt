@@ -1,0 +1,7 @@
+Cree un mapa de sitio a través de XML. 
+Optimice el peso de todas las imagenes del sitio para mejorar la carga y el responsive por arriba del 70% de optimizacion.
+Agrege descripcion y palabras clave en todas las paginas del proyecto. 
+
+
+
+Fer, quise probar hacer algo de SASS II pero me sigue sin compilar, fijate que correji como me dijiste en el chat la ruta, pero aun no compila cuando pono Wath Sass. De todas maneras no entendi bien el tema :/
